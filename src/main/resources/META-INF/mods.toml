@@ -1,0 +1,28 @@
+
+modLoader="javafml"
+
+loaderVersion="[41,)"
+license="All rights reserved"
+[[mods]]
+modId="forgeproyect"
+version="${file.jarVersion}"
+displayName="Forge Proyect"
+logoFile="forgeproyect.png"
+credits="Thanks for this example mod goes to Java"
+authors="IanNoguez"
+description='''
+Proyecto de mods MC
+'''
+
+[[dependencies.forgeproyect]]
+    modId="forge"
+    mandatory=true
+    versionRange="[41,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.forgeproyect]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19,1.20)"
+    ordering="NONE"
+    side="BOTH"
